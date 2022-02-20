@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-test/static/css/main.bb0ce7a1.chunk.css",
+    "main.js": "/react-test/static/js/main.797a8a59.chunk.js",
+    "main.js.map": "/react-test/static/js/main.797a8a59.chunk.js.map",
+    "runtime-main.js": "/react-test/static/js/runtime-main.2f3afb2f.js",
+    "runtime-main.js.map": "/react-test/static/js/runtime-main.2f3afb2f.js.map",
+    "static/js/2.c2002514.chunk.js": "/react-test/static/js/2.c2002514.chunk.js",
+    "static/js/2.c2002514.chunk.js.map": "/react-test/static/js/2.c2002514.chunk.js.map",
+    "index.html": "/react-test/index.html",
+    "static/css/main.bb0ce7a1.chunk.css.map": "/react-test/static/css/main.bb0ce7a1.chunk.css.map",
+    "static/js/2.c2002514.chunk.js.LICENSE.txt": "/react-test/static/js/2.c2002514.chunk.js.LICENSE.txt",
+    "static/media/anime-icon1.53b65ca3.jpg": "/react-test/static/media/anime-icon1.53b65ca3.jpg",
+    "static/media/anime-icon3.0089a286.jpg": "/react-test/static/media/anime-icon3.0089a286.jpg",
+    "static/media/anime-icon4.de466c25.jpg": "/react-test/static/media/anime-icon4.de466c25.jpg",
+    "static/media/anime-icon6.73ef7225.jpg": "/react-test/static/media/anime-icon6.73ef7225.jpg",
+    "static/media/App.scss": "/react-test/static/media/hh1.fb034eff.jpg",
+    "static/media/why-icon.b640d271.jpg": "/react-test/static/media/why-icon.b640d271.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2f3afb2f.js",
+    "static/js/2.c2002514.chunk.js",
+    "static/css/main.bb0ce7a1.chunk.css",
+    "static/js/main.797a8a59.chunk.js"
+  ]
+}
