@@ -5,7 +5,7 @@ function Hero() {
     <div className='hero-section'>
       <div className='hero-container'>
         <div className='hero-title'>
-          <h2 className='glich' data-text="アニメページ ">asd アニメページ</h2>
+          <h2 className='glich' data-text="アニメページ ">アニメページ</h2>
         </div>
       </div>
     </div>
