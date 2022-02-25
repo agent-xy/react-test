@@ -99,7 +99,8 @@ $background-color: #212121;
 
 .anime-item:hover {
   margin: 0;
-  width: calc(25% - 0px);
+  width: calc(25% - 5px);
+  margin: 0px 2.4px;
   .anime-logo {
     height: calc(170px + 10px);
   }
@@ -152,7 +153,8 @@ $background-color: #212121;
 
   .anime-item:hover {
     margin: 0;
-    width: calc(50% - 0px);
+    width: calc(50% - 10px);
+    margin: 0px 5px;
     .anime-logo {
       height: calc(170px + 10px);
     }

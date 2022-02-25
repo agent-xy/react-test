@@ -1,7 +1,6 @@
 import React from 'react';
 import { blogList } from '../../database/blogList';
 import { useState } from 'react';
-//import { animeInfAdd } from '../posts/Post'
 
 
 const Running = () => {

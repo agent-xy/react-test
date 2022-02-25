@@ -1,7 +1,7 @@
 export const blogList = [
   {
     id: 1,
-    img: 'assets/images/anime-icon1.jpg',
+    img: 'assets/images/anime-icon1.jpg', //assets/images/anime-icon1.jpg
     title: 'Sono Bisque Doll wa Koi',
     tags: 'Romance, Slice of Life, School, Seinen,',
   },

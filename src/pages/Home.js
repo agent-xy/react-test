@@ -1,6 +1,5 @@
 import React from 'react';
 import '../App.scss'
-import Footer from '../components/Footer';
 import Hero from '../components/home/Hero'
 import Japan from '../components/home/Japan';
 import Running from '../components/home/Running';
@@ -15,7 +14,6 @@ const Home = () => {
       <Running blogs={blogList}/>
       <Japan/>
       <Why />
-      <Footer/>
     </main>
   );
 }

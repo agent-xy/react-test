@@ -1,0 +1,161 @@
+
+.anime-add-section {
+  padding-top: 80px;
+  max-width: 100vw;
+}
+
+//----------------------------------------------------------
+// Anime-add-form styles sections --------------------------
+//----------------------------------------------------------
+
+.anime-add-form-section {
+  background-color: #212121;
+  min-height: calc(100vh - 480px);
+}
+
+.anime-add-form {
+  width: 60%;
+
+  h2 {
+    text-align: left;
+
+  }
+
+  label {
+    font-size: 1.2rem;
+    text-align: left;
+    margin-top: 20px;
+    margin-bottom: 5px;
+  }
+
+  input {
+    color: rgba(0, 0, 0, 0.4);
+    font-size: 1.2rem;
+    border-radius: 10px;
+    height: 40px;
+    border: 1px solid rgb(59, 248, 255);
+    transition: 1s;
+  }
+
+  input:focus {
+    border: 1px solid rgb(255, 59, 255);
+    outline: none;
+    color: rgb(0, 0, 0);
+  }
+}
+
+.add-anime {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.btn-add-anime {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  float: right;
+  width: 120px;
+  height: 50px;
+  padding: 0;
+}
+
+.new-anime-img {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+
+}
+
+
+.new-anime-img-item {
+  width: 30%;
+}
+
+.new-anime-img-radio {
+  width: 190px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.btn-radio-anime[type=radio] {
+  position: absolute;
+  opacity: 0;
+}
+
+.btn-radio-anime {
+  cursor: pointer;
+}
+
+.new-anime-img-radio {
+  cursor: pointer;
+  filter: grayscale(90%);
+  transition: 0.5s;
+  object-fit: cover;
+}
+
+.doboz {
+  padding: 10px;
+}
+
+.btn-radio-anime:checked + label > .new-anime-img-radio{ 
+  box-shadow: 5px 5px 15px rgb(0, 0, 0);
+  filter: none;
+}
+
+
+.see-new-post-container {
+  max-width: calc(40% - 50px);
+
+
+  p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  img {
+    width: 30vw;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+}
+
+
+
+@media only screen and (max-width: 1050px) {
+  .anime-add-form {
+    width: 100%;
+  }
+
+  .see-new-post-container {
+    width: 100%;
+    max-width: none;
+
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      max-width: none;
+      height: 350px;
+    }
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .add-anime {
+    width: 100%;
+  }
+
+  .doboz {
+    width: 100%;
+  }
+
+  .new-anime-img-radio {
+    width: 100%;
+  }
+}

@@ -4,6 +4,7 @@ import { HiOutlineMenuAlt2 } from 'react-icons/hi';
 import { RiFacebookBoxLine } from 'react-icons/ri';
 import { HiOutlineMail } from 'react-icons/hi';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
 
@@ -39,9 +40,9 @@ const Navbar = () => {
           <HiOutlineMenuAlt2 className='hamburger-icon' onClick={phoneMenuOpen}/>
         </div>
         <div className={showNav ? 'menu menu-left active' : 'menu menu-left'} >  {/* id={showNav ? 'menu-left active' : 'menu-left'} */}
-          <p><a className='menu-tag'>Home</a></p>
-          <p><a className='menu-tag'>Home</a></p>
-          <p><a className='menu-tag'>Home</a></p>
+          <p><Link to="/react-test/" className='menu-tag'>Home</Link></p>
+          <p><Link to="/react-test/new-anime" className='menu-tag'>Add anime</Link></p>
+          {/* <p><a className='menu-tag'>Home</a></p> */}
         </div>
         <div className='header-logo'>
           <img src={logo} alt='' />

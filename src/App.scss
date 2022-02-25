@@ -1,6 +1,7 @@
 @import './styles/navbar';
 @import './styles/home';
 @import './styles/footer';
+@import './styles/newAnime';
 
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade');
 
@@ -14,6 +15,11 @@ $background-color: #212121;
   font-family: 'M PLUS Rounded 1c', sans-serif;
   max-width: 100vw;
   overflow-wrap: break-word;
+}
+
+.dev-text {
+  color: red;
+  text-align: center;
 }
 
 .glich {
